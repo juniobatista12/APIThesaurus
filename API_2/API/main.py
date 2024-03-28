@@ -16,6 +16,16 @@ objetos = {
                 "instalador": "goldeneyen64.exe",
                 "thumbnail": "goldeneye.jpg",
                 "icone": "goldeneye.ico"
+            },
+            "Counter-Strike":{
+                "instalador": "cs16.exe",
+                "thumbnail": "counterstrike.png",
+                "icone": "cs16.ico"
+            },
+            "Valorant": {
+                "instalador": "Install Valorant.exe",
+                "thumbnail": "sage.png",
+                "icone": "valorant.ico"
             }
         },
         "Soulslike": {
@@ -28,6 +38,11 @@ objetos = {
                 "instalador": "eldenring.exe",
                 "thumbnail": "eldenring.png",
                 "icone": "eldenring.ico"
+            },
+            "Dark Souls III": {
+                "instalador": "ds3.exe",
+                "thumbnail": "irithyll.gif",
+                "icone": "ds3.ico"
             }
         }
     },
@@ -42,6 +57,11 @@ objetos = {
                 "trailer": "weare.mp4",
                 "wallpapper": "nami.gif",
                 "thumbnail": "goingMerry.png"
+            },
+            "Boku no Hero Academia": {
+                "trailer": "bnha.mp4",
+                "wallpapper": "bnha.gif",
+                "thumbnail": "bnha.pnh"
             }
         },
     },
@@ -56,6 +76,11 @@ objetos = {
                 "trailer": "mestreDosDesejos.mp4",
                 "fichaTecnica": "mestreDosDesejos.html",
                 "thumbnail": "mestreDosDesejos.png"
+            },
+            "Massacre da Serra Elétrica": {
+                "trailer": "chainsaw.mp4",
+                "fichaTecnica": "chainsaw.html",
+                "thumbnail": "leatherface.png"
             }
         },
         "Comédia": {
@@ -63,6 +88,20 @@ objetos = {
                 "trailer": "borat.mxf",
                 "fichaTecnica": "borat.html",
                 "thumbnail": "borat.jpg"
+            },
+            "As férias de Mr. Bean": {
+                "trailer": "mr-bean.mp4",
+                "fichaTecnica": "mr-bean.txt",
+                "thumbnail": "mr-bean.jpg"
+            }
+        }
+    },
+    "Séries": {
+        "Sci-Fi": {
+            "Dark": {
+                "trailer": "dark.mp4",
+                "fichaTecnica": "dark.txt",
+                "thumbnail": "dark.png"
             }
         }
     }

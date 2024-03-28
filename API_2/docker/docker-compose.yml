@@ -3,6 +3,7 @@
 services:
   database:
     image: mysql:8.3
+    command: --default-authentication-plugin=mysql_native_password
     environment:
       MYSQL_ROOT_PASSWORD: avmb123
     volumes:
