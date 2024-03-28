@@ -39,6 +39,22 @@ def getComunidades():
             for row in colecoes:
                 resposta.append({"id": row.idcolecoes, "colecao": row.nome})
     return json.dumps(resposta)
+
+@app.route("/colecoes")
+def getColecoes():
+    id = request.args.get("id", default=-1, type=int)
+    with connectDb() as session:
+        if id == -1:
+            colecoes = session.query(Colecoes)
+            resposta = []
+            for row in colecoes:
+                resposta.append({"id": row.idcolecoes, "colecao": row.nome})
+        else:
+            itens = session.query(Itens).join(Colecoes, Colecoes.idcolecoes == Itens.colecoes_idcolecoes).filter(Colecoes.idcolecoes == id)
+            resposta = []
+            for row in itens:
+                resposta.append({"id": row.iditens, "colecao": row.nome})
+    return json.dumps(resposta)
     
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
