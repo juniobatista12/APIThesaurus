@@ -9,3 +9,9 @@ services:
     - "./init.sql:/docker-entrypoint-initdb.d/init.sql:ro"
     ports:
     - "3306:3306"
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+    - "5000:5000"
