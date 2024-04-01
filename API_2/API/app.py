@@ -14,7 +14,7 @@ def connectDb():
 def index():
     return """
         <b>(GET) /comunidades: </b>Retorna uma lista com todas as comunidades<br />
-        <b>(GET) /comunidades?id=<i>&lt;id&gt;</i>: </b>Retorna uma lista com todos as coleçôes da comunidade de id <i>id</i><br />
+        <b>(GET) /comunidades?id=<i>&lt;id&gt;</i>: </b>Retorna uma lista com todas as coleções da comunidade de id <i>id</i><br />
         <b>(GET) /colecoes: </b>Retorna todas as coleções<br />
         <b>(GET) /colecoes?id=<i>&lt;id&gt;</i>: </b>Retorna uma lista com todos os itens da coleção de id <i>id</i><br />
         <b>(GET) /itens: </b>Retorna uma lista com todos os itens<br />
